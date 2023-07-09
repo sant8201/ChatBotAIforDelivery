@@ -1,10 +1,9 @@
 require('dotenv').config();
 const express = require('express');
-const readlineSync = require('readline-sync');
-
+// Inicializa o servidor Express
 const app = express();
 const port = 3000;
-
+// Configura as rotas da aplicação e habilita o uso dos dados JSON no corpo das
 app.use(express.json());
 
 app.post('/chat', async (req, res) => {
