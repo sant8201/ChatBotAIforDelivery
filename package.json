@@ -1,0 +1,24 @@
+{
+  "name": "chatbotaifordelivery",
+  "version": "1.0.0",
+  "description": "Chat para delivery utilizando ChatGPT para atendimento ",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sant8201/ChatBotAIforDelivery.git"
+  },
+  "author": "Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sant8201/ChatBotAIforDelivery/issues"
+  },
+  "homepage": "https://github.com/sant8201/ChatBotAIforDelivery#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
